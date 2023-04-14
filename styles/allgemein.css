@@ -1,0 +1,14 @@
+:root {
+    --blau : #053C4D;
+    --graublau : #759AAB;
+    --weiß : #FFFFFF;
+    --rosa : #CBA4C8;
+    --lila : #53134A;
+    --golden : #fde871;
+}
+
+body {
+    background-color: var(--blau) !important;
+    min-width: 100vw;
+    min-height: 100vh;
+}
