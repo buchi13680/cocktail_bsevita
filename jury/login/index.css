@@ -1,0 +1,29 @@
+.main-container {
+    padding-top: calc(12vh - 42px);
+}
+.login-container {
+    height: calc(100vh - calc(24vh - 42px));
+    background-color: var(--weiß);
+    padding: 10%;
+    padding-top: 5%;
+}
+#login-header {
+    font-size: calc(86px + 1vw);
+    font-weight: bold;
+}
+.login-inputs {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: calc(26px + 0.5vw);
+}
+.passwort_btns {
+    font-size: calc(14px + 0.5vw);
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: grey;
+}
+#login_btn {
+    font-size: calc(22px + 0.5vw);
+}

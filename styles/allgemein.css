@@ -1,5 +1,5 @@
 :root {
-    --hintergrund : linear-gradient(180deg, rgba(5,60,77,1) 50%, rgba(41,74,102,1) 80%);
+    --hintergrund : linear-gradient(180deg, rgba(5,60,77,1) 50%, rgb(53, 93, 128) 80%);
     --startseiteHintergrund : linear-gradient(180deg, rgba(5,60,77,1) 50%, rgba(203,164,200,1) 98%);
     --blau : #053C4D;
     --graublau : #759AAB;
@@ -10,24 +10,40 @@
     --goldenGradient : linear-gradient(133deg, rgba(126,89,54,1) 35%, rgba(245,220,182,1)50%,  rgba(126,89,54,1) 70%);;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body {
-    background: var(--startseiteHintergrund) !important;
-    min-width: 100vw;
-    min-height: 100vh;
+    font-family: 'Montserrat', Arial, sans-serif !important;
+    background: var(--hintergrund) !important;
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .text-center {
     text-align: center;
 }
-
+.pad-top-tiny {
+    padding-top: 5px;
+}
 .pad-top-small {
     padding-top: 15px;
 }
 .pad-top-medium {
-    padding-top: 25px;
+    padding-top: 30px;
 }
 .pad-top-big {
-    padding-top: 60px;
+    padding-top: 50px;
+}
+.pad-top-huge {
+    padding-top: 100px;
 }
 
 

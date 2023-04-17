@@ -1,30 +1,53 @@
 .taskleiste {
-    width: 100vw;
+    height: 42px;
+    min-width: 100%;
     background-color: var(--graublau);
     display: flex;
     justify-content: space-between;
-    padding: 3px 8px 3px 8px; 
+    padding: 5px 8px 5px 8px; 
 }
 #logo {
     width: 30px;
     height: 30px;
 }
+.login-cont {
+    display: flex;
+    min-width: 400px;
+    align-items: center;
+}
+.login-col-name {
+    flex: 70%;
+    max-width: 70%;
+    color: var(--weiß);
+    text-align: right;
+}
+.login-col-btn {
+    flex: 30%;
+    max-width: 30%;
+    color: var(--weiß);
+    text-align: right;
+}
+.juror_name {
+    display: inline-block;
+}
 #login_btn_small {
     border-radius: 5px;
     color: rgb(29, 29, 29);
-    background-color: white;
-    box-shadow: 0px -4px 5px 1px rgba(0,0,0,0.3) inset;
+    font-weight: bold;
+    background-color: rgb(243, 243, 243);
     font-size: 14px;
+    height: 100%;
     padding: 2px 16px 2px 16px;
 }
 
 .golden-text {
     color : var(--golden);
-    font-size : 5vw;
+    font-size : 4.8vw;
 }
 
 .star-container {
     margin-top: -40px;
+    position: relative;
 }
 .star {
     background: var(--goldenGradient);
@@ -35,14 +58,25 @@
 .star-text {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 58%;
     transform: translate(-50%,-50%);
     font-weight: 500;
 }
 
 .lightblue_btn {
     color: var(--weiß);
+    font-size: 16px;
     background-color: var(--graublau);
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    padding: 8px 3px 8px 3px;
+}
+
+.lightrosa_btn {
+    color: var(--weiß);
+    font-size: calc(16px + 0.5vw);
+    background-color: var(--rosa);
     border-radius: 3px;
     border: none;
     width: 100%;

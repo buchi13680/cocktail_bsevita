@@ -1,0 +1,23 @@
+.smiley-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cocktail-column {
+    display: flex;
+    height: 30vh;
+    background-color: var(--graublau);
+    align-items: center;
+    margin-left: 4%;
+    width: 92%;
+}
+.cocktail-textcontainer {
+    width: 100%;
+}
+.cocktail-text {
+    width: 100%;
+    flex: 100%;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
