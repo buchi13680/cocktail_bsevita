@@ -17,3 +17,34 @@
     font-size: 14px;
     padding: 2px 16px 2px 16px;
 }
+
+.golden-text {
+    color : var(--golden);
+    font-size : 5vw;
+}
+
+.star-container {
+    margin-top: -40px;
+}
+.star {
+    background: var(--goldenGradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+}
+.star-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+}
+
+.lightblue_btn {
+    color: var(--weiß);
+    background-color: var(--graublau);
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    padding: 8px 3px 8px 3px;
+}

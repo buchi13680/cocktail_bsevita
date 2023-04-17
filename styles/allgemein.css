@@ -1,15 +1,33 @@
 :root {
+    --hintergrund : linear-gradient(180deg, rgba(5,60,77,1) 50%, rgba(41,74,102,1) 80%);
+    --startseiteHintergrund : linear-gradient(180deg, rgba(5,60,77,1) 50%, rgba(203,164,200,1) 98%);
     --blau : #053C4D;
     --graublau : #759AAB;
     --weiß : #FFFFFF;
     --rosa : #CBA4C8;
     --lila : #53134A;
-    --golden : #fde871;
+    --golden : #F4EAB6;
+    --goldenGradient : linear-gradient(133deg, rgba(126,89,54,1) 35%, rgba(245,220,182,1)50%,  rgba(126,89,54,1) 70%);;
 }
 
 body {
-    background-color: var(--blau) !important;
+    background: var(--startseiteHintergrund) !important;
     min-width: 100vw;
     min-height: 100vh;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.pad-top-small {
+    padding-top: 15px;
+}
+.pad-top-medium {
+    padding-top: 25px;
+}
+.pad-top-big {
+    padding-top: 60px;
+}
+
 
