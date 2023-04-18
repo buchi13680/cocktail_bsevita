@@ -1,0 +1,48 @@
+.main-container {
+    padding-top: calc(7vh - 42px);
+    max-width: 1500px !important;
+}
+.padMe {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.text-column {
+    flex: 100%;
+    width: 100%;
+    justify-content: left;
+}
+.point-column {
+    flex: 16.66%;
+    width: 16.66%;
+    display: flex;
+    justify-content: center;
+}
+.punktebild {
+    width: 86%;
+}
+.notiz-inputs {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: calc(12px + 1vw);
+}
+.ingredient-container {
+    width: 100%;
+    height: 26.2vh;
+    overflow-y: auto;
+}
+.ingredient {
+    width: 100%;
+    color: var(--weiß);
+    font-size: calc(12px + 0.3vw);;
+}
+.btn-column {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.bewertung-abgeben-container {
+    flex: 80%;
+    max-width: 70%;
+}

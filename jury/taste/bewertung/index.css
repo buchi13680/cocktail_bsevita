@@ -1,0 +1,33 @@
+.main-container {
+    padding-top: calc(12vh - 42px);
+}
+.text-column {
+    padding-left: 25px;
+    flex: 100%;
+    width: 100%;
+    justify-content: left;
+}
+.point-column-small {
+    flex: 6.25%;
+    width: 6.25%;
+    display: flex;
+    justify-content: center;
+}
+.point-column-big {
+    flex: 16.66%;
+    width: 16.66%;
+    display: flex;
+    justify-content: center;
+}
+.punktebild {
+    width: 86%;
+}
+.btn-column {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.bewertung-abgeben-container {
+    flex: 30%;
+    max-width: 30%;
+}

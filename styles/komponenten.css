@@ -27,7 +27,7 @@
     color: var(--weiß);
     text-align: right;
 }
-.juror_name {
+#juror_name {
     display: inline-block;
 }
 #login_btn_small {
@@ -39,7 +39,14 @@
     height: 100%;
     padding: 2px 16px 2px 16px;
 }
-
+.golden-text-tiny {
+    color : var(--golden);
+    font-size : 1.4vw;
+}
+.golden-text-small {
+    color : var(--golden);
+    font-size : 2vw;
+}
 .golden-text {
     color : var(--golden);
     font-size : 4.8vw;

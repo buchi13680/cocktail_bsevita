@@ -1,0 +1,7 @@
+.main-container {
+    padding-top: calc(12vh - 42px);
+}
+.bigpad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
