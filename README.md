@@ -1,2 +1,3 @@
 # cocktail_bsevita
-1cd6f6532b3d62942b5cc38378fcdd52fa69d470b904395eee1211695afe7bb6
+
+![image](https://user-images.githubusercontent.com/106404118/232736897-498dc11e-1413-4c41-9edb-2214f9d75e82.png)
